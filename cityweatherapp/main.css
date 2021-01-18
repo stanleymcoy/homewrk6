@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'canaro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    background-color:yellow;
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: white;
+    border: 200px;
+    margin: 300px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color:rgba(138, 20, 20, 0.3);
+    border-radius: 20px;
+    color: #313131;
+    font-size: 20px;
+}
+
+header input :focus {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: red;
+    font-size: 16px;
+}
+
+.current .temp {
+    color: blue;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+
+.current .temp span {
+    font-weight: 500;
+}
+
+.current .weather {
+    color: black;
+}
